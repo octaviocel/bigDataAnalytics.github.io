@@ -1,0 +1,194 @@
+body{
+	margin:0px;
+	background: #642525;
+}
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background: #652626;
+	margin-bottom:5px;
+}
+
+.main_wrapper {
+	width:99%; /* Establecemos que el ancho sera del 90% */
+	max-width:1200px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	max-height:100px;
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */	
+}
+
+header .logo {		
+	line-height:150px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:125px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:lighter;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.login{
+	font-weight:bolder;
+}
+
+header nav a:hover {
+	/*background:linear-gradient(180deg, #070707 0%, rgba(37, 32, 32, 0.64) 100%);*/
+	background: linear-gradient(180deg, #070707 0%, rgba(37, 32, 32, 0.64) 100%);
+	border-radius:5px;
+}
+
+#principal{
+	width: 99%;
+	height: 900px;
+	max-width:1200px;
+	left: 0px;
+	top: 0px;
+	margin-top:150px;
+	margin-bottom:200px;
+	margin-left:70px;
+	margin-right:70px;
+	
+}
+
+.izquierdo{
+	float:left;
+	width: 600px;
+	height: 900px;
+	top: 170px;
+	background: #3D2424;
+	text-align:center;	
+}
+
+.izquierdo p{
+	margin-top:200px;
+	font-size:30px;
+	background: #fff;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: regular;
+	margin-left:70px;
+	margin-right:70px;
+}
+
+.derecho{
+	float:right;
+	width: 600px;
+	height: 900px;
+	top: 170px;
+	background: #534242;
+	text-align:center;
+}
+
+.derecho img{
+	margin-top:100px;
+}
+
+#campos{
+	text-align:left;
+}
+
+#campos h3{
+	margin-left:40px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.9em;
+	background:white;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-weight: normal;	
+}
+
+#campos ul{
+	margin-top:60px;
+	margin-left:50px;
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.4em;
+	background:white;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-weight: normal;
+	list-style: none;
+}
+
+#campos ul li+li a{
+	float:right;
+	font-size: 0.5em;
+	margin-right:24%;
+	text-decoration:none;
+	background:white;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+#campos ul li+li img{
+	margin:0;
+	padding-top:5px;
+	display: inline-block;
+}
+
+#campos ul input{
+	border:none;
+	width: 70%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	background-color:transparent;
+	color: transparent;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+/*Creo que no sirve*/
+#campos ul input:focus{
+	border:none;
+}
+
+.button{
+	margin-top:70px;	
+	list-style:none;
+}
+.button button{
+	padding:10px;
+	background: transparent;
+	color: white;
+	border: 2px solid white;
+	border-radius: 6px;
+	text-align: center;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.button button:hover{
+	background: linear-gradient(180deg, rgba(137, 137, 137, 0.43) 0%, rgba(198, 198, 198, 0) 100%);
+	border-radius:10px;
+	/*text-transform: uppercase;*/
+}
+
+footer{
+	width:100%;
+	overflow:hidden;
+	height: 400px;
+	background: linear-gradient(180deg, #652626 0%, rgba(0, 0, 0, 0.92) 100%);
+	/*background: linear-gradient(180deg, #642525 0%, rgba(0, 0, 0, 0.92) 100%);*/
+}
+
+#derechos{
+	background: #fff;
+	-webkit-background-clip: text;
+	color:white;
+	text-align:center;
+	line-height:650px;
+}
